@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-12-04
+  Changes:
+    - Initialized changelog
+    - Added Russian translation by RaulMoreau
