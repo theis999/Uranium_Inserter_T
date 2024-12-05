@@ -7,6 +7,7 @@ data:extend({
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     bulk = true,
     stack_size_bonus = 6,
+    filter_count = 5,
     minable = { mining_time = 0.2, result = "uranium-inserter" },
     max_health = 300,
     corpse = "bulk-inserter-remnants",
