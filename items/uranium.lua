@@ -7,6 +7,7 @@ data:extend({
     subgroup = "inserter",
     order = "z[filter-inserter]",
     place_result = "uranium-inserter",
-    stack_size = 50
+    stack_size = 50,
+    weight = 20*kg
   }
 })
