@@ -6,6 +6,6 @@
   "contact": "",
   "homepage": "",
   "factorio_version": "2.0",
-  "dependencies": ["base >= 2.0"],
-  "description": "Adds a new type of inserter, Uranium Inserters."
+  "dependencies": ["base >= 2.0", "? space-age > 2.0"],
+  "description": "Adds a new type of inserter, the Uranium Inserter. An expensive but fast endgame inserter that requires no power to use."
 }

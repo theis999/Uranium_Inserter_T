@@ -1,3 +1,18 @@
+
+local prerequisites = {
+  "nuclear-power",
+  "bulk-inserter",
+  "processing-unit"
+}
+
+if settings.startup["uranium-inserter-is-stackinserter-setting"].value and data.raw.technology["stack-inserter"] ~= nil then
+  prerequisites = {
+    "nuclear-power",
+    "stack-inserter",
+    "processing-unit"
+  }
+end
+
 data:extend(
 {
   {
@@ -12,19 +27,20 @@ data:extend(
         recipe = "uranium-inserter"
       }
     },
-    prerequisites = {"uranium-processing", "bulk-inserter", "processing-unit"},
+    prerequisites = prerequisites,
+
     unit =
     {
-      count = 500,
+      count = 1000,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
         {"chemical-science-pack", 1}
       },
-      time = 15
+      time = 30
     },
-    upgrade = true,
+    upgrade = false,
     order = "c-o-a"
   }
 })

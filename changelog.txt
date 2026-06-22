@@ -1,7 +1,14 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.5
-Date: ????
+Date: 2026-06-22
   Changes:
+    - Removed '1' upgrade overlay on the technology icon.
+    - Changed starting hand size from 7 to 9, so with full research the hand size becomes 20 which aligns with belt stacks.
+    - Moved research to be after Nuclear power instead of uranium mining to ensure prerequisit uranium fuel cell is available.
+    - Changed research to cost 1000 packs and 30 time to better align with similar technologies.
+    - Added setting to modify the uranium inserter to be a stack inserter instead of a bulk inserter.
+    - Added space age as an optional dependency to indicate the new setting uses space age content.
+    - Updated the mod description.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.4
 Date: 2024-12-06
